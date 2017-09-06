@@ -36,3 +36,112 @@ max-width: 840px;}
     text-align: left
 }
 /* ====================================== End Service ====================================== */
+
+
+/* ====================================== Start Service Other ====================================== */
+.service-other {
+    margin-top: 10px; 
+    margin-bottom: 50px;
+}
+.service-other p {
+    color: #777;
+}
+.service-other-content {
+	max-width: 840px;
+	max-height: inherit;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+}
+.service-other-content > div {
+    width: 100%
+}
+.service-other-content > div:first-of-type {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    transition: background .5s ease-in-out;
+    margin-right: 2%;
+    position: relative;
+    overflow: hidden;
+}
+.service-other-content > div:first-of-type span {
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 0 1px #666;
+    transition: all .5s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold
+}
+.service-other-content > div:first-of-type span .fa {
+    transition: all .5s ease-in-out;
+}
+.service-other-content > div:first-of-type span .fa:hover {
+    
+    cursor: pointer;
+    transform: rotate(360deg)scale(.8);
+}
+.service-other-content > div:first-of-type span:first-of-type {top: 25px; right: -50%}
+.service-other-content > div:first-of-type span:last-of-type {bottom: 25px; left: -100%}
+.service-other-content > div:first-of-type:hover span:first-of-type {top: 25px; right: 5px}
+.service-other-content > div:first-of-type:hover span:last-of-type {bottom: 25px; left: 25px}
+.service-other-content > div:first-of-type > div {
+    width: 100%; height: 100%;
+    position: absolute;
+    background-image: #666;
+    transition: all .5s ease-in-out;
+    opacity: 0
+}
+.service-other-content > div:first-of-type:hover div {
+    opacity: 1;
+}
+.service-other-content > div:first-of-type:hover {
+    background-position: right;
+    box-shadow: 2px 2px 0 #666;
+}
+.service-other-content dl {
+    width: 100%;
+    margin-bottom: 0
+}
+.service-other-content dl dt {
+    text-align: left;
+    margin-top: 7px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fafafa;
+    cursor: pointer;
+    
+}
+.service-other-content dl dt:first-of-type {margin-top: 0}
+.service-other-content dl dt h5 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    position: relative;
+    top: -4px
+}
+.service-other-content dl dt .fa {
+    color: #6ddbc5;
+    text-shadow: 0 0 1px #999;
+    padding: 5px 5px 0
+}
+.service-other-content dl dd {
+    border: 1px solid #ddd;
+    color: #777;
+    height: 250px;
+    max-height: 120px;
+}
+.service-other-content dl dd p {
+    overflow-y: scroll;
+    padding: 10px;
+    height: 100%;
+    text-align: justify
+}
+.service-other-content .accordion-hide {display: none}
+.service-other-content span{
+  float: right;
+  margin-right: 25px;
+  color:#777;
+  font-size:24px;
+}
+/* ====================================== End Service Other ====================================== */
