@@ -1,0 +1,38 @@
+/* rgba(255, 201, 56, 0.75) - rgba(255, 80, 82, 0.75) */
+/* #333 - #c92b2b - #f26b6b - #6ddbc5 - #fff968 - #fff */
+
+/* ====================================== Strart Service ====================================== */
+.service {
+    margin-top: 10px; margin-bottom: 10px;
+max-width: 840px;}
+.service .row > div {
+    border-bottom: 1px solid #eee
+}
+.service .service-flex {
+    display: flex; align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    max-width: 280px; max-height: 200px;
+    margin: 15px auto 0;
+}
+.service .service-flex:hover {
+    background: #f7f7f7
+}
+.service .service-flex .fa {
+    color: #6ddbc5;
+    text-shadow: 0 0 1px #666;
+}
+.service .service-flex article {
+    margin-left: 11px;
+}
+.service .service-flex article h4 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase
+}
+.service .service-flex article p {
+    text-align: left
+}
+/* ====================================== End Service ====================================== */

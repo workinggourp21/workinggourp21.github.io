@@ -3,6 +3,7 @@
 ****************************************************/
 /* Base
 ****************************************************/
+
 html {
   box-sizing: border-box;
 }
@@ -14,6 +15,7 @@ html {
 body {
   background-color: #FFF;
 }
+
 .CV-u-nowrap {
   white-space: nowrap;
 }
